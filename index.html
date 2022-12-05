@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        display:flex;
+        gap:10px;
+    }
+    .card{
+        transition:300ms ease-in-out;
+        background-image:linear-gradient(rgba(205, 205, 205, 0.487),rgba(79, 79, 79, 0.298));
+        width:200px;
+        height:200px;
+        border:2px groove grey;
+    }
+    .card + .card{
+        margin-left:-10%;
+    }
+    .card:hover{
+        transform:rotate(-4deg);
+        background-image:linear-gradient(rgb(205, 205, 205),rgb(79, 79, 79));
+    }
+    .card:hover ~ .card {
+        z-index:1;
+        translate:100px;
+       
+       
+    }
+    img{
+        width:100%;
+        height:100%;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="images/cardHo/butterfly-removebg-preview.png" alt="">
+        </div>
+        <div class="card">
+            <img src="images/cardHo/dallas.png" alt="">
+        </div>
+        <div class="card">
+             <img src="images/cardHo/Diwali Png Stickers.PNG" alt="">
+        </div>
+        <div class="card">
+ <img src="images/cardHo/hallower-removebg-preview.png" alt="">
+        </div>
+        <div class="card">
+ <img src="images/cardHo/los.png" alt="">
+        </div>
+        <div class="card">
+ <img src="images/cardHo/love-removebg-preview.png" alt="">
+        </div>
+        <div class="card">
+ <img src="images/cardHo/lovers-removebg-preview.png" alt="">
+        </div>
+        <div class="card">
+ <img src="images/cardHo/rainbow-removebg-preview.png" alt="">
+        </div>
+        <div class="card">
+ <img src="images/cardHo/sun-removebg-preview.png" alt="">
+        </div>
+        <div class="card">
+ <img src="images/cardHo/paris.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
