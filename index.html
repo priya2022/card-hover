@@ -8,6 +8,81 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <style>
+
+
+/* Music animation */
+.musicanime{
+   background-color:#d1f4ad;
+    display:flex;
+
+}
+.music{
+        width: 300px;
+        height:200px;
+        margin:0px 50px;
+        position:relative;
+        display:inline-flex;
+        align-items:center;
+        justify-content:space-between;
+
+    }
+    .music .bar{
+        width:12px;
+        border-radius: 10px;
+        background:pink;
+        animation:loader 1.5s ease-in-out infinite;
+    }
+    @keyframes loader{
+        0%,100%{
+            height:2px;
+        }
+        
+        50%{
+            height:80px;
+        }
+    }
+    .music .bar:nth-child(1){
+        background:purple;
+        animation-delay:1s;
+    }
+    .music .bar:nth-child(2){
+        background:crimson;
+        animation-delay:.8s;
+    }
+    .music .bar:nth-child(3){
+        background:deeppink;
+        animation-delay:.6s;
+    }
+    .music .bar:nth-child(4){
+        background:orange;
+        animation-delay:.4s;
+    }
+    .music .bar:nth-child(5){
+        background:gold;
+        animation-delay:.2s;
+    }
+    .music .bar:nth-child(6){
+        background:gold;
+        animation-delay:.2s;
+    }
+    .music .bar:nth-child(7){
+        background:orange;
+        animation-delay:.4s;
+    }
+    .music .bar:nth-child(8){
+        background:deeppink;
+        animation-delay:.6s;
+    }
+    .music .bar:nth-child(9){
+        background:crimson;
+        animation-delay:.8s;
+    }
+    .music .bar:nth-child(10){
+        background:purple;
+        animation-delay:1s;
+    }
+    
+
 /* Image snap */
 .box2 img{
     min-width:200vh;
@@ -54,13 +129,13 @@ body{
 /* diyas */
 .diyas{
     width:100%;
-    height:100px;
+    height:60px;
     padding-top:20px;
     
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background-color:black
+    background-color:rgba(82, 0, 45, 0.304)
 }
 
 
@@ -251,29 +326,6 @@ body{
     .selected{
         display:none;
     }
-    /* Music animation */
-    .music{
-        width: 300px;
-        height:200px;
-        position:relative;
-        display:inline-flex;
-        align-items:center;
-        justify-content:space-between;
-    }
-    .music .bar{
-        width:12px;
-        border-radius: 10px;
-        background:white;
-        animation:loader 1.5s ease-in-out infinite;
-    }
-    @keyframes loader{
-        0%,100%{
-            height:2px;
-        }
-        50%{
-            height:80px;
-        }
-    }
     
 </style>
 <body>
@@ -382,6 +434,98 @@ body{
 
     <div class="musicanime">
         <div class="music">
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+        </div>
+
+        <div class="music">
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+        </div>
+        <div class="music">
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
+            <div class="bar">
+
+            </div>
             <div class="bar">
 
             </div>
